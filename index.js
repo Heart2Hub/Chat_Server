@@ -11,7 +11,7 @@ app.use(cors());
 // Set up socket.io
 const socketIO = require('socket.io')(http, {
   cors: {
-      origin: ["http://localhost:3000", "http://127.0.0.1:5173/"]
+      origin: ["http://localhost:3000", "http://127.0.0.1:5173/", "http://localhost:8100"]
   }
 });
 // On connection
