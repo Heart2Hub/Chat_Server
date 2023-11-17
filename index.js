@@ -18,8 +18,8 @@ const socketIO = require("socket.io")(http, {
       "http://192.168.1.77:3000",
       "http://192.168.1.77:5555",
       "http://192.168.1.77:5901",
-      "http://192.168.1.118:8100",
-      "http://192.168.1.118:8080",
+      "http://192.168.1.118:8100", //UPDATE IF NEEDED
+      "http://192.168.1.118:8080", //UPDATE IF NEEDED
     ],
   },
 });
